@@ -1,2 +1,41 @@
-# wechat_menu_set
-快捷生成json格式的微信公众号自定义菜单；Quickly generate the WeChat public number custom menu in json format
+## 功能
+- 设置微信公众号自定义菜单 生成JSON格式的菜单参数 配合后台通过调用微信接口生成自定义菜单
+
+## 开发
+```bash
+    # 安装依赖
+    npm install
+
+    # 本地开发 开启服务
+    npm run dev
+```
+浏览器访问 http://localhost:8080
+
+## 发布
+```bash
+    npm run build
+```
+## 目录结构
+```wechatmenu
+├── build                      // 构建相关  
+├── config                     // 配置相关
+├── src                        // 源代码
+│   ├── assets                 // 图片等静态资源
+│   ├── components             // 全局公用组件
+│   ├── App.vue                // 入口页面
+│   └── main.js                // 入口 加载组件 初始化等
+├── .babelrc                   // babel-loader 配置
+├── eslintrc.js                // eslint 配置项
+├── .gitignore                 // git 忽略项
+├── index.html                 // html模板
+└── package.json               // package.json
+
+```
+
+## Changelog
+Detailed changes for each release are documented in the [release notes](https://github.com/PanJiaChen/vue-element-admin/releases).
+
+
+## 状态管理
+后台只有user和app配置相关状态使用vuex存在全局，其它数据都由每个业务页面自己管理。
+
