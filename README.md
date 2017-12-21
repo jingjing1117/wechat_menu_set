@@ -1,7 +1,7 @@
 ## 功能
 - 设置微信公众号自定义菜单 生成JSON格式的菜单参数 配合后台通过调用微信接口生成自定义菜单
 - 目前暂不支持小程序和图文消息等 可自行修改
-
+![image](https://github.com/jingjing1117/wechat_menu_set/blob/master/menu.png)
 ## 开发
 ```bash
     # 安装依赖
